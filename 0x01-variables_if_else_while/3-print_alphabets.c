@@ -1,22 +1,27 @@
 #include <stdio.h>
-
 /**
- * main - Program prints both lowercase and uppercase letters
- *
- * Return: 0
-*/
+ *main - Prints the alphabet in lowercase, and then in uppercase
+ *Return: 0 (sucess)
+ */
+
 int main(void)
 {
-char n;
-	char a = 'a';
-	char A = 'A';
-	char z = 'z';
-	char Z = 'Z';
-	char n = ('\n');
+	int n = 97;
+	int m = 65;
 
-	for (; a <= z; a++, A++)
-	putchar(a), putchar(A);
-	putchar(n);
+	while (n <= 122)
+	{
 
-return (0);
+		putchar(n);
+	}
+	while (m <= 90)
+	{
+
+		putchar(m);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
+
