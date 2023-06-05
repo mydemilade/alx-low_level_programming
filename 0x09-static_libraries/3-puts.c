@@ -1,8 +1,6 @@
 #include "main.h"
 #include<stdio.h>
 
-void _puts(char *str);
-
 /**
  * _puts - A function that outputs a string
  * followed by a new line
